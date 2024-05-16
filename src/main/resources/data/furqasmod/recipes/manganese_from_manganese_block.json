@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients" : [
+    {
+      "item": "furqasmod:manganese_block"
+    }
+  ],
+  "result": {
+    "item": "furqasmod:manganese",
+    "count": 9
+  }
+}

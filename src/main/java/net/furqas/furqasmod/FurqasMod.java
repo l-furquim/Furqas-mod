@@ -1,6 +1,10 @@
 package net.furqas.furqasmod;
 
 import com.mojang.logging.LogUtils;
+import net.furqas.furqasmod.block.ModBlocks;
+import net.furqas.furqasmod.item.ModCreativeTabs;
+import net.furqas.furqasmod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -26,7 +30,12 @@ public class FurqasMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        // Register the commonSetup method for modloading
+
+        ModCreativeTabs.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+
         modEventBus.addListener(this::commonSetup);
 
 

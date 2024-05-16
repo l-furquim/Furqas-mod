@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key" : {
+    "#": {
+      "item": "furqasmod:raw_manganese"
+    }
+  },
+  "result": {
+    "item": "furqasmod:raw_manganese_ore"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "furqasmod:raw_manganese_ore"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "furqasmod:blocks/raw_manganese_ore"
+}

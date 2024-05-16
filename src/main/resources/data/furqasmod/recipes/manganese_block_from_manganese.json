@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key" : {
+    "#": {
+      "item": "furqasmod:manganese"
+    }
+  },
+  "result": {
+    "item": "furqasmod:manganese_block"
+    }
+  }

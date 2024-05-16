@@ -1,0 +1,12 @@
+{
+
+  "item.furqasmod.manganese" : "Manganese",
+
+  "item.furqasmod.raw_manganese" : "Raw Manganese",
+
+  "creativetab.furqasmod" : "Furqas Mod",
+
+  "block.furqasmod.manganese_block": "Block of Manganese",
+  "block.furqasmod.manganese_ore": "Manganese Ore",
+  "block.furqasmod.raw_manganese_ore": "Raw Manganese Block"
+}
